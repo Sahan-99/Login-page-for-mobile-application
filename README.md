@@ -1,0 +1,1 @@
+This is a login page for a mobile application. When the user enters the correct username and password, they need to verify the "I'm not a robot" option. If the username or password is incorrect, the user will need to try again.
