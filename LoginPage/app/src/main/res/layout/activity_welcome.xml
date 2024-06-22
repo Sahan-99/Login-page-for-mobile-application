@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="26dp"
+    tools:context=".welcome">
+
+    <TextView
+        android:id="@+id/success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="500dp"
+        android:gravity="center"
+        android:text="Login Successfull"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+            android:id="@+id/welcom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:text="Welcome" />
+
+
+
+</RelativeLayout>
